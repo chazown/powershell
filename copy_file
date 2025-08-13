@@ -1,0 +1,8 @@
+# 보낼 파일의 전체 경로를 지정합니다.
+PS C:\Windows\system32> $sourceFile = "file_spot"
+  
+# 이 경로는 "\\<IP주소>\<공유폴더이름>" 형태
+>> $destinationPath = "\\상대방IP\저장위치"
+  
+# Copy-Item 명령어로 파일을 복사합니다
+>> Copy-Item -Path $sourceFile -Destination $destinationPath -Force
