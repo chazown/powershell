@@ -1,0 +1,8 @@
+### PowerShell History 경로
+### (Get-PSReadLineOption).HistorySavePath
+
+### 대체로 다음과 같이 나옴
+#### PC:\Users\[사용자명]\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+
+### 전체 지우기
+Remove-Item C:\Users\USDT\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
