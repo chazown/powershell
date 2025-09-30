@@ -6,7 +6,7 @@
 
 ---
 
-## 🔗 목차 (바로 가기 링크)
+## 🔗 목차
 
 * [바탕화면 파일백업](https://github.com/chazown/powershell/blob/main/quick_backup)
 * [오래된 다운로드 파일 탐색](https://github.com/chazown/powershell/blob/main/clean_old_downloads)
