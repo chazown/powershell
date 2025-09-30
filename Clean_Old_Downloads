@@ -1,0 +1,4 @@
+## 다운로드 폴더 최상위에서 90일 이상 접근하지 않은 파일 목록을 전체 경로로 출력하여 정리대상을 보여줌
+## 'LastAccessTime' 대신 'LastWriteTime' (최종 수정 시간)을 기준으로 하려면 수정하면 됨
+
+$cutoff=(Get-Date).AddDays(-90); Get-ChildItem "$env:USERPROFILE\Downloads" -File | Where-Object { $_.LastAccessTime -lt $cutoff } | Select-Object FullName
