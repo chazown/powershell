@@ -9,19 +9,19 @@
 ## 🔗 목차 (바로 가기 링크)
 
 * 바탕화면 파일백업
-* [Quick_Backup](#quick_backup)
+* [quick_backup](#quick_backup)
 
 * 오래된 다운로드 파일 탐색
-* [Clean_Old_Downloads](#clean_old_downloads)
+* [clean_old_downloads](#clean_old_downloads)
 
 * 파일 보내기
 * [copy_file](#copy_file)
 
 * 마지막 부팅 시간 확인
-* [Last_BootTime](#last_boottime)
+* [last_boot](#last_boot)
 
 * 포트 종료( 네트워크 문제 발생시)  
-* [Kill_Port](#kill_port)
+* [kill_port](#kill_port)
 
 * 기록 삭제
 * [clear](#clear)
