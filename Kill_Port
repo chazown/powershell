@@ -1,0 +1,4 @@
+## 특정 TCP 포트(예: 8080)를 사용하는 프로세스를 찾아 즉시 종료
+## '8080' 부분을 원하는 포트 번호로 수정하면 해당 포트가 종료됨
+
+Get-NetTCPConnection -LocalPort 8080 | Select-Object OwningProcess | Get-Process -ErrorAction SilentlyContinue | Stop-Process -Force
